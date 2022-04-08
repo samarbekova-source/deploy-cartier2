@@ -1,0 +1,32 @@
+.rccs__card--unknown > div {
+  background: rgb(5, 156, 161) !important;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+
+.billing_adress {
+  width: 45%;
+}
+
+.bills {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .rccs {
+    display: none;
+  }
+}

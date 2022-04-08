@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 0.85rem;
+}
+
+@media screen and (max-width: 425px) {
+  .navbar {
+    font-size: 0.9rem;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .navbar {
+    font-size: 0.8rem;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar {
+    font-size: 0.7rem;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+}
+.navbar-item {
+  margin: 5px 15px;
+  color: black;
+}
+.navbar-item-active {
+  margin: 5px 15px;
+  color: rgba(85, 83, 83, 0.842);
+  border-bottom: 1px solid grey;
+}
+a:hover {
+  color: black;
+}

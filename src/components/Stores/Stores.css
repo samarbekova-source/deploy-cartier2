@@ -1,0 +1,21 @@
+.stores-a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 1025px) {
+  .stores-a {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.stores-text {
+  text-decoration: underline;
+  margin-top: 20px;
+  font-weight: 600;
+}

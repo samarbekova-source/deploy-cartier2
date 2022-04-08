@@ -1,0 +1,30 @@
+.admin-products {
+  margin: 0 auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 425px) {
+  .admin-products {
+    margin: 0 auto;
+    width: 110vw;
+    margin-left: -50px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .admin-products {
+    margin: 0 auto;
+    width: 120vw;
+    margin-left: -60px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .admin-products {
+    margin: 0 auto;
+    width: 140vw;
+    margin-left: -60px;
+  }
+}
